@@ -1,0 +1,88 @@
+.main-content {
+    margin-top: 80px;
+}
+
+.login__container {
+    box-shadow: 10px 5px 5px gray;
+    height: 33rem;
+    width: 60rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+}
+
+.login__right__container {
+    background-color: white;
+    height: 33rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.login__right__container img {
+    margin-top: 3rem;
+    margin-left: -8rem;
+}
+
+.login__container h3 {
+    font-weight: 100;
+    font-size: 2.5rem;
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-right: 10rem;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+
+}
+
+.login__btn__container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.login__left__container {
+    background-image: url("https://user-images.githubusercontent.com/92604480/167319400-c8065c91-be35-40b0-b7ed-245c328259ca.jpg");
+    /* background-size: 40%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.login__btn__modal,
+#login__btn,
+#demo__btn {
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #fa4c6f;
+    color: white;
+    font-family: "Sansita";
+    font-size: 1.3rem;
+    font-weight: bold;
+    flex-direction: row;
+    margin: 1rem;
+    /* margin-left: -10rem; */
+}
+
+:is(.login__btn__modal, #login__btn, #demo__btn):hover {
+    background-color: #cc3e5b;
+}

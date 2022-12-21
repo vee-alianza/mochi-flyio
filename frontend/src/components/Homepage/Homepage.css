@@ -1,0 +1,80 @@
+.main__container {
+    border-right: 1rem solid black;
+    width: calc(100vw - 10rem);
+    display: flex;
+}
+
+.left__container {
+    width: 65%;
+}
+
+.right__container {
+    width: 35%;
+    margin-top: 25rem;
+    padding: 2rem;
+}
+
+.right__container h2 {
+    margin-top: 23rem;
+    margin-bottom: -1rem;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+/* .right__container img {
+    margin-top: 2rem;
+    margin-left: 17rem;
+
+    width: 6.5rem;
+    z-index: -5;
+} */
+
+.contact__info__container {
+    border-top: 0.01rem solid black;
+    width: 75%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linkedIn,
+.angelList,
+.gitHub,
+.portfolio-logo {
+    border: 0.01rem solid black;
+    border-radius: 50%;
+    width: 3.5rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* position: relative; */
+}
+
+/*
+.linkedIn__details {
+    padding-left: 5rem;
+}
+
+.info__title {
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    padding: -0.5rem;
+}
+
+.linkedIn h4 {
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+}
+
+.linkedIn a {
+    margin-left: 20.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+} */

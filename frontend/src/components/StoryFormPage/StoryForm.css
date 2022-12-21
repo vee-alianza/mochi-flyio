@@ -1,0 +1,87 @@
+#modal-content.modal__edit__form {
+    margin: 0;
+    width: 55rem;
+    height: 30rem;
+    background-color: #f3939e;
+    z-index: 2;
+}
+
+h3 {
+    justify-content: left;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: 1.5rem;
+}
+
+.recipe__container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+/* .recipe__create__box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+} */
+
+/* .recipe__form {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+  } */
+
+.storyform__left_container {
+    /* border: 2px rgb(0, 255, 8); */
+    width: 20%;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+.storyform__right_container {
+    border: 2px orange;
+    width: 50%;
+}
+
+#btn {
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-right: 10rem; */
+}
+
+.btn__cancel {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    background-color: #24a0ed;
+    border-radius: 25px;
+    border-color: #24a0ed;
+    height: 3rem;
+    width: 7rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+
+.btn__publish {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #00ab66;
+    border-radius: 25px;
+    border-color: #00ab66;
+    height: 3rem;
+    width: 7rem;
+    /* margin-right: 2rem; */
+    /* margin-left: 1rem; */
+}
+
+/*
+  .recipe__box {
+      text-overflow: clip;
+      overflow: hidden;
+      width: 50rem;
+  } */
