@@ -6,7 +6,7 @@
       <a href="https://github.com/vee-alianza">Vee Alianza</a>
       </br>
       </br>
-      <a href="https://mochi-noms.herokuapp.com/">» Live Link «</a>
+      <a href="https://mochi-noms.fly.dev/">» Live Link «</a>
 </h5>
 
 <h4 align= "center" dir="auto">
